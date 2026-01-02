@@ -1,0 +1,13 @@
+{
+  "project_id": "some_project",
+  "version_id": "1.0.0",
+  "display_name": "My modpack!",
+  "display_version": "",
+  "release_type": [
+    "release",
+    "beta",
+    "alpha"
+  ],
+  "max_exclusive_version": "",
+  "use_version_number_for_display": true
+}

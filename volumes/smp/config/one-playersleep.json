@@ -1,0 +1,9 @@
+{
+  "sleepPercentage": 50,
+  "enableMod": true,
+  "showSleepMessages": true,
+  "allowSleepInNether": false,
+  "allowSleepInEnd": false,
+  "lastTotalPlayers": -1,
+  "lastRequiredSleepers": -1
+}

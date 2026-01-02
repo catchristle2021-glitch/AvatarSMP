@@ -1,0 +1,46 @@
+services:
+  smp:
+    image: itzg/minecraft-server
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    ports:
+      - "25565:25565"
+    #networks:
+      #- minecraft
+    environment:
+      EULA: "TRUE"
+      VERSION: 1.21.4
+      SERVER_NAME: "smp"
+      PLAYER_IDLE_TIMEOUT: 60
+      TYPE: "FABRIC"
+      VIEW_DISTANCE: 36
+      DIFFICULTY: "hard"
+      ICON: "https://raw.githubusercontent.com/BagelSMP/static-assets/refs/heads/main/serverimg/bagel5.jpg"
+      HARDCORE: "false"
+      SNOOPER_ENABLED: "false"
+      SPAWN_PROTECTION: 0
+      MAX_BUILD_HEIGHT: 500
+      MAX_PLAYERS: 100
+      INIT_MEMORY: 4G
+      MAX_MEMORY: 16G
+      #SEED=
+      GAMEMODE: "survival"
+      ENABLE_RCON: "TRUE"
+      #ONLINE_MODE: "FALSE"
+      REPLACE_ENV_VARIBLES: "TRUE"
+      ENV_VARIBLE_PREFIX: "CFG_"
+      #MOTD: PMC03b0e4dd76bff7dc2491fc7db109e1f4
+      MOTD: INDEV
+      OPS: |
+        Connor_33341
+        DV11
+
+    volumes:
+      - ./volumes/smp:/data
+
+  playit:
+    image: ghcr.io/playit-cloud/playit-agent:0.17.0-rc2
+    network_mode: host
+    environment:
+    - SECRET_KEY=45ed24fddcabc5ae55b91aba6108a9b4902faad467115b19012047de46928728

@@ -1,0 +1,7 @@
+{
+  "blacklisted_names": [],
+  "max_name_length": 16,
+  "operators_bypass_restrictions": false,
+  "enable_formatting": true,
+  "require_permissions": true
+}
