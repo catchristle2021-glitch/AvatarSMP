@@ -1,0 +1,7 @@
+*.jar
+/volumes/smp/world/*
+*.log.gz
+*-server.txt
+/cache/*
+.cache
+*.dat

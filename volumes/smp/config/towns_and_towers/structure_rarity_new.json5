@@ -19,18 +19,18 @@ GitHub Repository: [NEED TO MAKE ONE]
 	"other": {
 		"salt": 213742069,
 		// DEFAULT 16
-		"separation": 16,
+		"separation": 32,
 		// DEFAULT 32
-		"spacing": 32
+		"spacing": 64
 	},
 	// Here you can find all pillager outposts.
 	"towers": {
-		"frequency": 0.2,
+		"frequency": 0.05,
 		"salt": 213742069,
-		// DEFAULT 24
+		// DEFAULT 46
 		"separation": 12,
 		// DEFAULT 48
-		"spacing": 48
+		"spacing": 72
 	},
 	// Here you can find all villages.
 	"towns": {

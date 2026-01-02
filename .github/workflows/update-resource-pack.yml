@@ -1,0 +1,122 @@
+name: Update Resource Pack
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: 'Release tag name (e.g., v1.0, v1.1)'
+        required: true
+        default: 'v1.0'
+
+jobs:
+  upload-resource-pack:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Check if resource pack exists
+        id: check_pack
+        run: |
+          if [ -f "volumes/smp/polymer/resource_pack.zip" ]; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "✓ Resource pack found!"
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+            echo "✗ Resource pack not found!"
+            echo "Please generate it by running the server first."
+            exit 1
+          fi
+      
+      - name: Calculate SHA1 hash
+        id: calculate_hash
+        run: |
+          HASH=$(sha1sum volumes/smp/polymer/resource_pack.zip | awk '{print $1}')
+          echo "sha1=$HASH" >> $GITHUB_OUTPUT
+          echo "Resource pack SHA1: $HASH"
+      
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.event.inputs.tag_name }}
+          release_name: Resource Pack ${{ github.event.inputs.tag_name }}
+          body: |
+            ## Minecraft Server Resource Pack
+            
+            **SHA1 Hash:** `${{ steps.calculate_hash.outputs.sha1 }}`
+            
+            ### Installation Instructions
+            
+            1. Add this to your `server.properties`:
+            ```properties
+            require-resource-pack=true
+            resource-pack=https://github.com/${{ github.repository }}/releases/download/${{ github.event.inputs.tag_name }}/resource_pack.zip
+            resource-pack-sha1=${{ steps.calculate_hash.outputs.sha1 }}
+            resource-pack-prompt=Custom items require this resource pack!
+            ```
+            
+            2. Restart your server
+            
+            Generated on: ${{ github.event.repository.updated_at }}
+          draft: false
+          prerelease: false
+      
+      - name: Upload Resource Pack to Release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./volumes/smp/polymer/resource_pack.zip
+          asset_name: resource_pack.zip
+          asset_content_type: application/zip
+      
+      - name: Update server.properties
+        run: |
+          PACK_URL="https://github.com/${{ github.repository }}/releases/download/${{ github.event.inputs.tag_name }}/resource_pack.zip"
+          SHA1="${{ steps.calculate_hash.outputs.sha1 }}"
+          
+          # Create backup
+          cp volumes/smp/server.properties volumes/smp/server.properties.backup
+          
+          # Update properties file
+          sed -i "s|^resource-pack=.*|resource-pack=$PACK_URL|" volumes/smp/server.properties
+          sed -i "s|^resource-pack-sha1=.*|resource-pack-sha1=$SHA1|" volumes/smp/server.properties
+          
+          echo "✓ Updated server.properties"
+          echo "  URL: $PACK_URL"
+          echo "  SHA1: $SHA1"
+      
+      - name: Commit updated server.properties
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add volumes/smp/server.properties
+          git diff --staged --quiet || git commit -m "Update resource pack URL and SHA1 for ${{ github.event.inputs.tag_name }}"
+      
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+      
+      - name: Success Summary
+        run: |
+          echo "════════════════════════════════════════════════════════"
+          echo "✓ Resource Pack Successfully Uploaded!"
+          echo "════════════════════════════════════════════════════════"
+          echo ""
+          echo "Download URL:"
+          echo "https://github.com/${{ github.repository }}/releases/download/${{ github.event.inputs.tag_name }}/resource_pack.zip"
+          echo ""
+          echo "SHA1 Hash:"
+          echo "${{ steps.calculate_hash.outputs.sha1 }}"
+          echo ""
+          echo "server.properties has been automatically updated!"
+          echo "Just restart your server to apply changes."
+          echo ""
+          echo "════════════════════════════════════════════════════════"
