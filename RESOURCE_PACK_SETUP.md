@@ -9,7 +9,39 @@ Force clients to download a resource pack. No need for a separate Python server!
 ## Steps to Fix
 
 ### 1. Generate the Resource Pack
-Start your Minecraft server once. Polymer will automatically generate `polymer/resource_pack.zip` in your server folder.
+
+Polymer creates the resource pack when needed. To generate it:
+
+**Option A: Have a player join the server**
+- Start your server
+- Connect with a vanilla client
+- The pack will auto-generate at `polymer/resource_pack.zip`
+- Disconnect
+
+**Option B: Use the command (if available)**
+- Start your server  
+- Connect via console or as an operator
+- Run: `/polymer export-pack`
+- This creates `polymer/resource_pack.zip`
+
+**Option C: Force generation by creating empty pack**
+```bash
+mkdir -p polymer
+cd polymer
+# Create minimal pack.mcmeta
+cat > pack.mcmeta << 'EOF'
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Polymer Resource Pack"
+  }
+}
+EOF
+# Create zip
+zip -r resource_pack.zip pack.mcmeta
+rm pack.mcmeta
+```
+Then restart the server and join - Polymer will regenerate it properly.
 
 ### 2. Host the Resource Pack (Choose ONE method)
 
