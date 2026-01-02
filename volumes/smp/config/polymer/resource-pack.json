@@ -2,7 +2,7 @@
   "_c0": "UUID of default/main resource pack.",
   "main_uuid": "871a242b-f06e-41ce-a292-76189ea39c9a",
   "_c1": "Marks resource pack as required, only effects clients and mods using api to check it",
-  "markResourcePackAsRequiredByDefault": false,
+  "markResourcePackAsRequiredByDefault": true,
   "_c5": "Included resource packs from mods!",
   "include_mod_assets": [],
   "_c6": "Included resource packs from zips!",
