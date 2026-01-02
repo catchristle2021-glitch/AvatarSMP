@@ -257,12 +257,6 @@
     },
     "done": true
   },
-  "vanilla_refresh:player/hurt": {
-    "criteria": {
-      "requirement": "2026-01-02 21:34:22 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/lapis_lazuli_from_smelting_deepslate_lapis_ore": {
     "criteria": {
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
@@ -424,6 +418,12 @@
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
     },
     "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-01-02 22:30:01 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/orange_bed": {
     "criteria": {
@@ -622,6 +622,12 @@
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
     },
     "done": true
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-01-02 22:30:01 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/crimson_stairs": {
     "criteria": {
@@ -839,6 +845,12 @@
     },
     "done": true
   },
+  "deathcounter:dead_inside/root": {
+    "criteria": {
+      "trigger": "2026-01-02 22:17:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_carpet": {
     "criteria": {
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
@@ -1052,6 +1064,12 @@
   "minecraft:recipes/building_blocks/cut_copper_slab_from_cut_copper_stonecutting": {
     "criteria": {
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:location/the_end": {
+    "criteria": {
+      "requirement": "2026-01-02 22:22:21 +0000"
     },
     "done": true
   },
@@ -1319,6 +1337,12 @@
     },
     "done": true
   },
+  "enchantplus:list": {
+    "criteria": {
+      "requirement": "2026-01-02 22:22:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
@@ -1336,6 +1360,12 @@
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
     },
     "done": true
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-01-02 22:30:01 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/snow": {
     "criteria": {
@@ -1762,6 +1792,12 @@
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
     },
     "done": true
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2026-01-02 22:30:01 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/waxed_cut_copper_from_honeycomb": {
     "criteria": {
@@ -2699,6 +2735,12 @@
     },
     "done": true
   },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-01-02 22:30:01 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/green_carpet": {
     "criteria": {
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
@@ -3223,7 +3265,7 @@
   },
   "vanilla_refresh:player/end_teleport": {
     "criteria": {
-      "s3": "2026-01-02 21:34:18 +0000"
+      "s3": "2026-01-02 22:22:21 +0000"
     },
     "done": false
   },
@@ -3328,6 +3370,12 @@
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
     },
     "done": true
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-01-02 22:30:01 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/misc/tide_armor_trim_smithing_template": {
     "criteria": {
@@ -3941,6 +3989,12 @@
     },
     "done": true
   },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-01-02 22:30:01 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
@@ -3964,6 +4018,12 @@
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
     },
     "done": true
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2026-01-02 22:30:01 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/purpur_pillar": {
     "criteria": {
@@ -5015,6 +5075,12 @@
     },
     "done": true
   },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2026-01-02 22:30:01 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/dye_light_blue_wool": {
     "criteria": {
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
@@ -5807,6 +5873,12 @@
     },
     "done": true
   },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2026-01-02 22:30:01 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/misc/raiser_armor_trim_smithing_template": {
     "criteria": {
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
@@ -6257,6 +6329,12 @@
     },
     "done": true
   },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-01-02 22:22:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
@@ -6557,6 +6635,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2026-01-02 22:17:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
     "criteria": {
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
@@ -6728,6 +6812,12 @@
   "minecraft:recipes/redstone/jungle_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-01-02 22:22:21 +0000"
     },
     "done": true
   },
@@ -7103,6 +7193,12 @@
     },
     "done": true
   },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-01-02 22:30:01 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
@@ -7252,6 +7348,12 @@
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
     },
     "done": true
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2026-01-02 22:30:01 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/deepslate_tile_slab_from_polished_deepslate_stonecutting": {
     "criteria": {
@@ -8144,6 +8246,12 @@
   "minecraft:recipes/building_blocks/cut_red_sandstone_slab_from_cut_red_sandstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2026-01-02 21:35:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-01-02 22:22:21 +0000"
     },
     "done": true
   },
