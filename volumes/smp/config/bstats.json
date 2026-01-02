@@ -6,7 +6,7 @@
   "_notice5": "anonymous.",
   "_notice6": "Discord Integration bStats page: https://bstats.org/plugin/bukkit/DiscordIntegration/9765",
   "serverUuid": "9c99c096-8269-4a9c-8e10-174b441a4666",
-  "enabled": true,
+  "enabled": false,
   "logFailedRequests": false,
   "logSentData": false,
   "logResponseStatusText": false
