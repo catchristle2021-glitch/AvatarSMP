@@ -1,11 +1,11 @@
-[22:34:43] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.18.4
-[22:34:43] [ForkJoinPool-1-worker-2/WARN]: Mod mr_vanilla_refresh uses the version 1.4.27a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '27a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[22:34:44] [main/WARN]: Warnings were found!
+[22:59:59] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.18.4
+[22:59:59] [ForkJoinPool-1-worker-9/WARN]: Mod mr_vanilla_refresh uses the version 1.4.27a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '27a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[22:59:59] [main/WARN]: Warnings were found!
  - Mod 'Forge Config API Port' (forgeconfigapiport) 21.4.3 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
  - Mod 'Naturally Trimmed' (naturally_trimmed) 3.1.2 recommends version 12.0.0-beta.1 or later of modmenu, which is missing!
 	 - You should install version 12.0.0-beta.1 or later of modmenu for the optimal experience.
-[22:34:44] [main/INFO]: Loading 230 mods:
+[22:59:59] [main/INFO]: Loading 230 mods:
 	- additionalstructures 5.2.0
 	- alwaysinfectmod 1.0.0-1.21.4
 	- antixray 1.4.10
@@ -265,86 +265,82 @@
 	   \-- org_reflections_reflections 0.10.2
 	- yungsextras 1.21.4-Fabric-5.4.0
 	   \-- org_reflections_reflections 0.10.2
-[22:34:46] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/data/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[22:34:46] [main/INFO]: Compatibility level set to JAVA_21
-[22:34:46] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:34:46] [main/ERROR]: Failed reading REFMAP JSON from : java.lang.NullPointerException Cannot invoke "org.spongepowered.asm.mixin.refmap.ReferenceMapper.setResourceName(String)" because "mapper" is null
-[22:34:46] [main/WARN]: Reference map '' for packetevents-mc1140.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:34:46] [main/ERROR]: Failed reading REFMAP JSON from : java.lang.NullPointerException Cannot invoke "org.spongepowered.asm.mixin.refmap.ReferenceMapper.setResourceName(String)" because "mapper" is null
-[22:34:46] [main/WARN]: Reference map '' for packetevents-mc1914.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:34:46] [main/ERROR]: Failed reading REFMAP JSON from : java.lang.NullPointerException Cannot invoke "org.spongepowered.asm.mixin.refmap.ReferenceMapper.setResourceName(String)" because "mapper" is null
-[22:34:46] [main/WARN]: Reference map '' for packetevents-mc1202.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:34:46] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:34:46] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:34:46] [main/WARN]: Error loading class: eu/pb4/styledchat/StyledChatUtils (java.lang.ClassNotFoundException: eu/pb4/styledchat/StyledChatUtils)
-[22:34:46] [main/WARN]: Error loading class: com/electronwill/nightconfig/core/io/IoUtils (java.lang.ClassNotFoundException: com/electronwill/nightconfig/core/io/IoUtils)
-[22:34:47] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
-[22:34:47] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
-[22:34:47] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[22:34:47] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[22:34:47] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[22:34:52] [main/ERROR]: Mod with id explorify only has an old path for subPath data/cristellib/structure_config. New Path for Cristel Lib >=2.0.1 is missing! Maybe contact the mod author to let them know.
-[22:34:53] [pool-2-thread-1/INFO]: [STDOUT]: {"game_versions":["1.21.2","1.21.3","1.21.4"],"loaders":["fabric"],"id":"UrJzcWLv","project_id":"7x0zk3YH","author_id":"vgcXqfPN","featured":false,"name":"Death Counter 2024.12.3","version_number":"2024.12.3","changelog":"- Fixed [#9](https://github.com/syorito-hatsuki/death-counter/issues/9)\n- Fixed [#11](https://github.com/syorito-hatsuki/death-counter/issues/11)","changelog_url":null,"date_published":"2024-12-24T00:31:09.226742Z","downloads":886,"version_type":"release","status":"listed","requested_status":null,"files":[{"id":"Jhm25eHT","hashes":{"sha1":"9298d7b0ed8d847552bd9aa2bb08dfa154af0fb2","sha512":"3067fed391d9759b9f3e69ef67c7a6b82066974f035be398f955fa813c9d785598716691ff00a5b2b5b1987c66ef1e78524bf05c584bf0c4e272c53207403b3c"},"url":"https://cdn.modrinth.com/data/7x0zk3YH/versions/UrJzcWLv/death-counter-1.21.2-2024.12.3.jar","filename":"death-counter-1.21.2-2024.12.3.jar","primary":true,"size":2858585,"file_type":null}],"dependencies":[{"version_id":null,"project_id":"mWxGwd3F","file_name":null,"dependency_type":"embedded"},{"version_id":null,"project_id":"Ha28R6CL","file_name":null,"dependency_type":"required"},{"version_id":null,"project_id":"P7dR8mSH","file_name":null,"dependency_type":"required"},{"version_id":null,"project_id":"DkOr2M32","file_name":null,"dependency_type":"embedded"},{"version_id":null,"project_id":"eUw8l2Vi","file_name":null,"dependency_type":"embedded"}]}
-[22:34:53] [pool-2-thread-1/INFO]: [STDOUT]: {"game_versions":["1.20","1.20.1","1.20.2","1.20.3","1.20.4","1.20.5","1.20.6","1.21","1.21.1","1.21.2","1.21.3","1.21.4"],"loaders":["fabric"],"id":"WCwN1ld7","project_id":"mWxGwd3F","author_id":"vgcXqfPN","featured":false,"name":"Ducky Updater Lib 2024.10.2","version_number":"2024.10.2","changelog":"* Fixed IndexOutOfBoundsException and JsonSyntaxException","changelog_url":null,"date_published":"2024-10-29T08:39:10.488809Z","downloads":3037,"version_type":"release","status":"listed","requested_status":null,"files":[{"id":"r1QdWiw7","hashes":{"sha512":"c81c136e364da7c9b218393f60f9a34c4a8748d996426fd64f306f59f4366412897c0aa9eb18a17789e22fbf0f14f8a5890923ef71405258cd004240b8c4d218","sha1":"de1b17b4e9ab6c592e91ceeb76ef4c54b1b854b9"},"url":"https://cdn.modrinth.com/data/mWxGwd3F/versions/WCwN1ld7/ducky-updater-lib-2024.10.2-1.20.jar","filename":"ducky-updater-lib-2024.10.2-1.20.jar","primary":true,"size":18832,"file_type":null}],"dependencies":[]}
-[22:34:53] [pool-2-thread-1/INFO]: [STDOUT]: {"game_versions":["1.21.4"],"loaders":["fabric"],"id":"3Q34Qq8o","project_id":"DkOr2M32","author_id":"vgcXqfPN","featured":false,"name":"fStats 2025.4.2","version_number":"2025.4.2","changelog":"* Added online mode check for client-side","changelog_url":null,"date_published":"2025-04-30T21:06:02.536977Z","downloads":52,"version_type":"release","status":"listed","requested_status":null,"files":[{"id":"tM4vbczc","hashes":{"sha1":"bb75761b7372b6b683acc9aa1c6e2e2f2cf7e4db","sha512":"0b7c5e220f1a959a5107c9bbe3947b603a58bc9108675dd59435524d1cdebcf477b689ce54ea89054add62cfa2af3f22355ea9f0a60675abc1ab6011129f7d8c"},"url":"https://cdn.modrinth.com/data/DkOr2M32/versions/3Q34Qq8o/fstats-api-2025.4.2.jar","filename":"fstats-api-2025.4.2.jar","primary":true,"size":53394,"file_type":null}],"dependencies":[{"version_id":null,"project_id":"P7dR8mSH","file_name":null,"dependency_type":"optional"},{"version_id":null,"project_id":"mOgUt4GM","file_name":null,"dependency_type":"optional"}]}
-[22:34:53] [main/INFO]: Successfully initialized antixray for fabric
-[22:34:53] [main/INFO]: Reflections took 45 ms to scan 1 urls, producing 1 keys and 2 values
-[22:34:53] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
-[22:34:53] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[22:34:53] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
-[22:34:53] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[22:34:53] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[22:34:53] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 1 values
-[22:34:53] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 1 values
-[22:34:53] [main/INFO]: Reflections took 6 ms to scan 1 urls, producing 1 keys and 3 values
-[22:34:53] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[22:34:54] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[22:34:54] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
-[22:34:54] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[22:34:54] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
-[22:34:54] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[22:34:54] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[22:34:54] [main/INFO]: Hello Fabric world!
-[22:34:54] [main/INFO]: BountyHunt is initializing!
-[22:34:54] [main/INFO]: Loaded config file.
-[22:34:54] [main/INFO]: Files up to date
-[22:34:54] [main/INFO]: Loaded BountyHunt files.
-[22:34:54] [main/INFO]: Registered commands.
-[22:34:54] [main/INFO]: BountyHunt has been initialized!
-[22:34:54] [main/INFO]: Loading Collective version 8.3.
-[22:34:54] [main/INFO]: Custom Names 0.2.9-1.21.4 initialising
-[22:34:54] [main/INFO]: Reading config
-[22:34:54] [main/INFO]: Hello Fabric world!
-[22:34:54] [main/INFO]: AAA!! Something bit my toe!
-[22:34:55] [main/INFO]: Loading PacketEvents...
-[22:34:55] [main/ERROR]: Could not load SQLite driver for /grim history database.
+[23:00:01] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/data/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[23:00:01] [main/INFO]: Compatibility level set to JAVA_21
+[23:00:02] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:00:02] [main/ERROR]: Failed reading REFMAP JSON from : java.lang.NullPointerException Cannot invoke "org.spongepowered.asm.mixin.refmap.ReferenceMapper.setResourceName(String)" because "mapper" is null
+[23:00:02] [main/WARN]: Reference map '' for packetevents-mc1140.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:00:02] [main/ERROR]: Failed reading REFMAP JSON from : java.lang.NullPointerException Cannot invoke "org.spongepowered.asm.mixin.refmap.ReferenceMapper.setResourceName(String)" because "mapper" is null
+[23:00:02] [main/WARN]: Reference map '' for packetevents-mc1914.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:00:02] [main/ERROR]: Failed reading REFMAP JSON from : java.lang.NullPointerException Cannot invoke "org.spongepowered.asm.mixin.refmap.ReferenceMapper.setResourceName(String)" because "mapper" is null
+[23:00:02] [main/WARN]: Reference map '' for packetevents-mc1202.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:00:02] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:00:02] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:00:02] [main/WARN]: Error loading class: eu/pb4/styledchat/StyledChatUtils (java.lang.ClassNotFoundException: eu/pb4/styledchat/StyledChatUtils)
+[23:00:02] [main/WARN]: Error loading class: com/electronwill/nightconfig/core/io/IoUtils (java.lang.ClassNotFoundException: com/electronwill/nightconfig/core/io/IoUtils)
+[23:00:02] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[23:00:02] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[23:00:02] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[23:00:02] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[23:00:03] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[23:00:09] [main/ERROR]: Mod with id explorify only has an old path for subPath data/cristellib/structure_config. New Path for Cristel Lib >=2.0.1 is missing! Maybe contact the mod author to let them know.
+[23:00:10] [main/INFO]: Successfully initialized antixray for fabric
+[23:00:10] [main/INFO]: Reflections took 50 ms to scan 1 urls, producing 1 keys and 2 values
+[23:00:10] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 2 values
+[23:00:10] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
+[23:00:10] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 3 values
+[23:00:10] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[23:00:10] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[23:00:10] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[23:00:10] [main/INFO]: Reflections took 8 ms to scan 1 urls, producing 1 keys and 1 values
+[23:00:10] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[23:00:10] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[23:00:10] [main/INFO]: Reflections took 7 ms to scan 1 urls, producing 1 keys and 2 values
+[23:00:10] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[23:00:10] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 1 values
+[23:00:10] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
+[23:00:10] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 2 values
+[23:00:10] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[23:00:10] [main/INFO]: Hello Fabric world!
+[23:00:10] [main/INFO]: BountyHunt is initializing!
+[23:00:10] [main/INFO]: Loaded config file.
+[23:00:10] [main/INFO]: Files up to date
+[23:00:10] [main/INFO]: Loaded BountyHunt files.
+[23:00:10] [main/INFO]: Registered commands.
+[23:00:10] [main/INFO]: BountyHunt has been initialized!
+[23:00:10] [main/INFO]: Loading Collective version 8.3.
+[23:00:11] [main/INFO]: Custom Names 0.2.9-1.21.4 initialising
+[23:00:11] [main/INFO]: Reading config
+[23:00:11] [main/INFO]: Hello Fabric world!
+[23:00:11] [main/INFO]: AAA!! Something bit my toe!
+[23:00:11] [main/INFO]: Loading PacketEvents...
+[23:00:11] [main/ERROR]: Could not load SQLite driver for /grim history database.
 Download the minecraft-sqlite-jdbc mod/plugin for SQLite support, or change history.database.type
 Alternatively set history.enabled=false if /grim history support is not desired
-[22:34:55] [main/INFO]: Loading Naturally Trimmed config from config file
-[22:34:55] [main/INFO]: Loaded One PlayerSleep configuration from /data/./config/one-playersleep.json
-[22:34:55] [main/INFO]: One PlayerSleep mod initialized!
-[22:34:55] [main/INFO]: Sleep percentage: 50%
-[22:34:55] [main/INFO]: Mod enabled: true
-[22:34:55] [main/INFO]: Show sleep messages: true
-[22:34:55] [main/INFO]: Allow sleep in Nether: false
-[22:34:55] [main/INFO]: Allow sleep in End: false
-[22:34:55] [main/INFO]: make a man a mod, he'll be enteratined for a few minutes - teach a man to mod, and he'll mald till the end of time
-[22:34:55] [main/INFO]: Go make that OP weapon :)
-[22:34:55] [main/INFO]: Hello Fabric world!
-[22:34:56] [ForkJoinPool.commonPool-worker-1/ERROR]: Failed to read Modrinth version list! Got status code 404 with body ''
-[22:34:56] [main/INFO]: Reflections took 9 ms to scan 1 urls, producing 1 keys and 3 values
-[22:34:56] [main/INFO]: Reflections took 7 ms to scan 1 urls, producing 1 keys and 3 values
-[22:34:56] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[22:34:56] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[22:34:56] [main/ERROR]: Please check the config file and set an bot token
-[22:34:56] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:34:57] [main/INFO]: Found new data pack cristellib:runtime_pack, loading it automatically
-[22:34:57] [main/INFO]: Collected 0 data resources in 6.380647ms:
+[23:00:12] [main/INFO]: Loading Naturally Trimmed config from config file
+[23:00:12] [main/INFO]: Loaded One PlayerSleep configuration from /data/./config/one-playersleep.json
+[23:00:12] [main/INFO]: One PlayerSleep mod initialized!
+[23:00:12] [main/INFO]: Sleep percentage: 50%
+[23:00:12] [main/INFO]: Mod enabled: true
+[23:00:12] [main/INFO]: Show sleep messages: true
+[23:00:12] [main/INFO]: Allow sleep in Nether: false
+[23:00:12] [main/INFO]: Allow sleep in End: false
+[23:00:12] [main/INFO]: :ctft: literally infinite and counting
+[23:00:12] [main/INFO]: Go make that OP weapon :)
+[23:00:12] [main/INFO]: Hello Fabric world!
+[23:00:38] [ForkJoinPool.commonPool-worker-1/ERROR]: Failed to read Modrinth version list! Got status code 404 with body ''
+[23:00:38] [main/INFO]: Reflections took 7 ms to scan 1 urls, producing 1 keys and 3 values
+[23:00:38] [main/INFO]: Reflections took 7 ms to scan 1 urls, producing 1 keys and 3 values
+[23:00:38] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[23:00:38] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[23:00:38] [main/ERROR]: Please check the config file and set an bot token
+[23:00:38] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:00:39] [main/INFO]: Collected 0 data resources in 7.933362ms:
 
-[22:35:03] [Worker-Main-5/ERROR]: Couldn't parse data file 'ma:discs/obtain_chrip' from 'ma:advancement/discs/obtain_chrip.json': DataResult.Error['Not a JSON object: null']
-[22:35:03] [Worker-Main-5/ERROR]: Couldn't parse data file 'ma:discs/obtain_stall' from 'ma:advancement/discs/obtain_stall.json': DataResult.Error['Not a JSON object: null']
-[22:35:05] [main/INFO]: Loaded 1669 recipes
-[22:35:05] [main/ERROR]: Failed to load function vanilla_refresh:other_features/gamerules/refresh/modified
+[23:00:46] [Worker-Main-5/ERROR]: Couldn't parse data file 'ma:discs/obtain_chrip' from 'ma:advancement/discs/obtain_chrip.json': DataResult.Error['Not a JSON object: null']
+[23:00:46] [Worker-Main-5/ERROR]: Couldn't parse data file 'ma:discs/obtain_stall' from 'ma:advancement/discs/obtain_stall.json': DataResult.Error['Not a JSON object: null']
+[23:00:47] [main/INFO]: Loaded 1669 recipes
+[23:00:47] [main/ERROR]: Failed to load function vanilla_refresh:other_features/gamerules/refresh/modified
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 128: Invalid chat component: Unterminated array at line 1 column 155 path $[4]
 See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json at position 305: ...},"color":<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source) ~[?:?]
@@ -361,46 +357,54 @@ See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json a
 	at knot/net.minecraft.class_2158.method_9195(class_2158.java:80) ~[server-intermediary.jar:?]
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	... 7 more
-[22:35:05] [main/INFO]: Loaded 2145 advancements
-[22:35:05] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 279 translation keys
-[22:35:05] [main/INFO]: Applied 425 biome modifications to 149 of 174 new biomes in 24.97 ms
-[22:35:05] [Server thread/INFO]: Registering packets...
-[22:35:05] [Server thread/INFO]: Registering tick schedulers...
-[22:35:05] [Server thread/INFO]: Grim Version: 2.3.72-326e200
-[22:35:05] [Server thread/ERROR]: Could not load SQLite driver for /grim history database.
+[23:00:47] [main/INFO]: Loaded 2145 advancements
+[23:00:47] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 279 translation keys
+[23:00:48] [main/INFO]: Applied 425 biome modifications to 149 of 174 new biomes in 23.71 ms
+[23:00:48] [Server thread/INFO]: Registering packets...
+[23:00:48] [Server thread/INFO]: Registering tick schedulers...
+[23:00:48] [Server thread/INFO]: Grim Version: 2.3.72-326e200
+[23:00:48] [Server thread/ERROR]: Could not load SQLite driver for /grim history database.
 Download the minecraft-sqlite-jdbc mod/plugin for SQLite support, or change history.database.type
 Alternatively set history.enabled=false if /grim history support is not desired
-[22:35:05] [Server thread/INFO]: Starting background profiler...
-[22:35:05] [Thread-3/INFO]: New GrimAC version found! Version 2.3.73-98fd065 is available to be downloaded here: https://modrinth.com/plugin/grimac
-[22:35:05] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[22:35:05] [Server thread/INFO]: Loading properties
-[22:35:05] [Server thread/INFO]: Default game type: SURVIVAL
-[22:35:05] [Server thread/INFO]: Generating keypair
-[22:35:05] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:35:05] [Server thread/INFO]: Using epoll channel type
-[22:35:06] [Server thread/INFO]: Preparing level "world"
-[22:35:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:35:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:35:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:35:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:35:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:35:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:35:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:35:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:35:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:35:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:35:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:35:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:35:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:35:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:35:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:35:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:35:14] [Server thread/INFO]: Time elapsed: 7552 ms
-[22:35:14] [Server thread/INFO]: -----[ [36m[1mfStats[0m ]-----
-[22:35:14] [Server thread/INFO]: [33mOn server exist mod that collect metric data about mods usage for few author[0m
-[22:35:14] [Server thread/INFO]: [33mThat mod work like bStats, no need to panic. You can disable it config if you want[0m
-[22:35:14] [Server thread/INFO]: --------------------
-[22:35:15] [Server thread/WARN]: {
+[23:00:48] [Server thread/INFO]: Starting background profiler...
+[23:00:48] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[23:00:48] [Server thread/INFO]: Loading properties
+[23:00:48] [Server thread/INFO]: Default game type: SURVIVAL
+[23:00:48] [Server thread/INFO]: Generating keypair
+[23:00:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:00:48] [Server thread/INFO]: Using epoll channel type
+[23:00:48] [Server thread/INFO]: Preparing level "world"
+[23:00:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:00:53] [Thread-3/INFO]: Failed to check latest version.
+[23:00:53] [Thread-3/ERROR]: Failed to check latest GrimAC version.: java.net.http.HttpTimeoutException: request timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(Unknown Source)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(Unknown Source)
+	at knot//ac.grim.grimac.command.commands.GrimVersion.checkForUpdates(GrimVersion.java:62)
+	at knot//ac.grim.grimac.command.commands.GrimVersion.lambda$checkForUpdatesAsync$0(GrimVersion.java:46)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+[23:00:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:00:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:00:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:00:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:00:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:00:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:00:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:00:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:00:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:00:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:00:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:00:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:00:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:00:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:00:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[23:00:57] [Server thread/INFO]: Time elapsed: 7378 ms
+[23:00:57] [Server thread/INFO]: -----[ [36m[1mfStats[0m ]-----
+[23:00:57] [Server thread/INFO]: [33mOn server exist mod that collect metric data about mods usage for few author[0m
+[23:00:57] [Server thread/INFO]: [33mThat mod work like bStats, no need to panic. You can disable it config if you want[0m
+[23:00:57] [Server thread/INFO]: --------------------
+[23:00:57] [pool-2-thread-1/INFO]: [STDOUT]: {"game_versions":["1.21.2","1.21.3","1.21.4"],"loaders":["fabric"],"id":"UrJzcWLv","project_id":"7x0zk3YH","author_id":"vgcXqfPN","featured":false,"name":"Death Counter 2024.12.3","version_number":"2024.12.3","changelog":"- Fixed [#9](https://github.com/syorito-hatsuki/death-counter/issues/9)\n- Fixed [#11](https://github.com/syorito-hatsuki/death-counter/issues/11)","changelog_url":null,"date_published":"2024-12-24T00:31:09.226742Z","downloads":886,"version_type":"release","status":"listed","requested_status":null,"files":[{"id":"Jhm25eHT","hashes":{"sha512":"3067fed391d9759b9f3e69ef67c7a6b82066974f035be398f955fa813c9d785598716691ff00a5b2b5b1987c66ef1e78524bf05c584bf0c4e272c53207403b3c","sha1":"9298d7b0ed8d847552bd9aa2bb08dfa154af0fb2"},"url":"https://cdn.modrinth.com/data/7x0zk3YH/versions/UrJzcWLv/death-counter-1.21.2-2024.12.3.jar","filename":"death-counter-1.21.2-2024.12.3.jar","primary":true,"size":2858585,"file_type":null}],"dependencies":[{"version_id":null,"project_id":"mWxGwd3F","file_name":null,"dependency_type":"embedded"},{"version_id":null,"project_id":"Ha28R6CL","file_name":null,"dependency_type":"required"},{"version_id":null,"project_id":"P7dR8mSH","file_name":null,"dependency_type":"required"},{"version_id":null,"project_id":"DkOr2M32","file_name":null,"dependency_type":"embedded"},{"version_id":null,"project_id":"eUw8l2Vi","file_name":null,"dependency_type":"embedded"}]}
+[23:00:57] [Server thread/WARN]: {
   "projectIds": {
     "1": "2023.12.3",
     "34": "2024.12.3"
@@ -413,34 +417,15 @@ Alternatively set history.enabled=false if /grim history support is not desired
     "fabricApiVersion": "0.119.4+1.21.4"
   }
 }
-[22:35:15] [Server thread/INFO]: Done (9.093s)! For help, type "help"
-[22:35:15] [Server thread/INFO]: Starting remote control listener
-[22:35:15] [Server thread/INFO]: Thread RCON Listener started
-[22:35:15] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[22:35:15] [pool-11-thread-1/INFO]: 
-[22:35:15] [pool-11-thread-1/INFO]: [1m[33mUpdates available[0m
-[22:35:15] [pool-11-thread-1/INFO]: 	- fStats API [90m[[37m202[91m3.12.3[90m -> [37m202[92m5.4.2[90m][0m
-[22:35:15] [pool-11-thread-1/INFO]: 
-[22:35:16] [pool-10-thread-1/INFO]: Metric data sent to https://fstats.dev
-[22:35:26] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[22:35:26] [Server thread/INFO]: [Rcon: Stopping the server]
-[22:35:26] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[22:35:26] [Server thread/INFO]: Stopping fStats
-[22:35:26] [Server thread/INFO]: Terminating PacketEvents...
-[22:35:26] [Server thread/INFO]: Stopping server
-[22:35:26] [Server thread/INFO]: Saving players
-[22:35:26] [Server thread/INFO]: Saving worlds
-[22:35:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:35:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:35:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:35:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/kattersstructures:deep_blue
-[22:35:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:35:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:35:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:35:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (deep_blue): All chunks are saved
-[22:35:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:35:27] [Server thread/INFO]: BountyHunt is shutting down!
-[22:35:27] [Server thread/INFO]: Saved BountyHunt files.
-[22:35:27] [Server thread/INFO]: Saved config file.
-[22:35:27] [Server thread/INFO]: BountyHunt has been shut down!
-[22:35:27] [Server thread/INFO]: Thread RCON Listener stopped
+[23:00:57] [Server thread/INFO]: Done (8.960s)! For help, type "help"
+[23:00:57] [Server thread/INFO]: Starting remote control listener
+[23:00:57] [Server thread/INFO]: Thread RCON Listener started
+[23:00:57] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[23:01:09] [User Authenticator #1/INFO]: UUID of player Connor_33341 is 0daf3135-1cd2-4801-87c0-49182604f819
+[23:01:11] [Netty Epoll Server IO #4/INFO]: Loading block mappings for V_1_21_4/17...
+[23:01:11] [Netty Epoll Server IO #4/INFO]: Finished loading block mappings for V_1_21_4/17 in 154.345899ms
+[23:01:12] [Server thread/INFO]: Connor_33341[/172.18.0.1:47855] logged in with entity id 100 at (39.356379580654625, 82.0, 19.552050206487802)
+[23:01:12] [Server thread/INFO]: Creating player name mappings - LuckPerms not found!
+[23:01:12] [Server thread/INFO]: Connor_33341 joined the game
+[23:01:17] [pool-2-thread-1/INFO]: [STDOUT]: {"game_versions":["1.21.4"],"loaders":["fabric"],"id":"3Q34Qq8o","project_id":"DkOr2M32","author_id":"vgcXqfPN","featured":false,"name":"fStats 2025.4.2","version_number":"2025.4.2","changelog":"* Added online mode check for client-side","changelog_url":null,"date_published":"2025-04-30T21:06:02.536977Z","downloads":52,"version_type":"release","status":"listed","requested_status":null,"files":[{"id":"tM4vbczc","hashes":{"sha512":"0b7c5e220f1a959a5107c9bbe3947b603a58bc9108675dd59435524d1cdebcf477b689ce54ea89054add62cfa2af3f22355ea9f0a60675abc1ab6011129f7d8c","sha1":"bb75761b7372b6b683acc9aa1c6e2e2f2cf7e4db"},"url":"https://cdn.modrinth.com/data/DkOr2M32/versions/3Q34Qq8o/fstats-api-2025.4.2.jar","filename":"fstats-api-2025.4.2.jar","primary":true,"size":53394,"file_type":null}],"dependencies":[{"version_id":null,"project_id":"P7dR8mSH","file_name":null,"dependency_type":"optional"},{"version_id":null,"project_id":"mOgUt4GM","file_name":null,"dependency_type":"optional"}]}
+[23:01:34] [Worker-Main-7/ERROR]: Failed to parse either. First: Failed to parse either. First: Not a string: null; Second: Not a json array: null; Second: Not a JSON object: null; Failed to parse either. First: Failed to parse either. First: Not a string: null; Second: Not a json array: null; Second: Not a JSON object: null; Failed to parse either. First: Failed to parse either. First: Not a string: null; Second: Not a json array: null; Second: Not a JSON object: null; Failed to parse either. First: Failed to parse either. First: Not a string: null; Second: Not a json array: null; Second: Not a JSON object: null; Input is not a list of 4 elements
